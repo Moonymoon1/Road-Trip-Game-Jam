@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1923f9efa7b9f54fb8986bddc0fde0a, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  dialogo:
+  - "Este, \xE9 o texto teste 1!\nTeste."
+  - "Este, \xE9 o texto teste 2!\nTeste."
+  respostas:
+  - textoResposta: sim
+    objetoDialogo: {fileID: 11400000, guid: c148a7a1e2fdf9444a7f9b150a3d4b9b, type: 2}
+  - textoResposta: "n\xE3o"
+    objetoDialogo: {fileID: 11400000, guid: aa40593370747fd4c988f45224321376, type: 2}
