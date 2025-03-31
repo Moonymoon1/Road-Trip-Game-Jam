@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 421207504}
   - component: {fileID: 421207505}
   - component: {fileID: 421207506}
+  - component: {fileID: 421207507}
   m_Layer: 0
   m_Name: "L\xEDdia"
   m_TagString: Player
@@ -445,6 +446,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &421207507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421207500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06bcfbaa8a996fe4489d1a86cc59922c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
